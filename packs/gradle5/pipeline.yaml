@@ -2,8 +2,8 @@ extends:
   import: classic
   file: gradle/pipeline.yaml
 agent:
-  label: jenkins-gradle
-  container: gradle5
+  label: jenkins-gradle5
+  container: gradle
   replace: true
 pipelines:
   pullRequest:
